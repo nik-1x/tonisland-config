@@ -1,0 +1,12 @@
+{
+  "server.properties": "https://raw.githubusercontent.com/nikitt-code/tonisland-config/main/properties.json",
+  "sc": "https://api.purpurmc.org/v2/purpur/%v/latest/download",
+  "v": [
+    "server.properties",
+    "sc",
+    "version",
+    "plugin",
+    "eula.txt",
+    "server.jar"
+  ]
+}
