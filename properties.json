@@ -5,7 +5,7 @@
   "gamemode": "spectator",
   "enable-command-block": "true",
   "enable-query": "false",
-  "generator-settings": "\"{}\"",
+  "generator-settings": "{}",
   "level-name": "world",
   "motd": "TON Island",
   "query.port": 25565,
