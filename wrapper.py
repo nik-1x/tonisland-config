@@ -1,11 +1,11 @@
 import requests,subprocess
-def load(v):
+def load(v,qq):
     def r(u):return requests.get(u)
     def cf(n):return c['v'][n]
     def w(f,d):f.write(d); f.close()
     def o(f,t='w'):return open(cf(f),t)
     def b(v):return str(v).lower()
-    c=r('https://raw.githubusercontent.com/nikitt-code/tonisland-config/main/wrap.json').json()
+    c=r(qq).json()
     T,F=True,False
     def u_():
         d,p=r(c[cf(0)]).json(),''
@@ -18,4 +18,4 @@ def load(v):
     def r_(): 
         while T:subprocess.call(['java','-jar',cf(5),'-nogui'])
     if d(v)&e_(T)&u_():r_()
-load('1.19')
+load('1.19', 'https://raw.githubusercontent.com/nikitt-code/tonisland-config/main/wrap.json')
